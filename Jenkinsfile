@@ -5,6 +5,7 @@ pipeline{
 		    steps{
 		     echo "Hello World!"
 			 }
+	    }
 		    
 		    stage("Git clone") {
 			    steps{
@@ -12,6 +13,5 @@ pipeline{
 			    }
 		    }
 			 
-		}
 	}
 }	
